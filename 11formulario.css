@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Yanone+Kaffeesatz');
+
+*{
+padding: 0%;
+margin: 0%;
+
+}
+
+.contenedor{
+
+width: 100%;
+max-width:1620px;
+background:white;
+display:inline-block; 
+margin:  auto;
+
+
+}
+
+
+}
+
+.header {
+
+width: 100%;
+height:70px;
+margin: 0 auto;
+display:inline-block; 
+
+}
+
+
+.imagen1{
+
+margin:10px auto;
+margin-top: 1px;
+	display:block; /* logo, que va en el espacio del div del header*/
+
+}
+
+/*.....................*/
+
+.menu{
+
+
+overflow: hidden;
+display:inline-block; 
+width: 100%;
+
+
+}
+
+
+
+/*...........MENU..........*/
+
+.nav {
+margin-top: 2px;
+width: 100%;
+height:50px;
+display: table; /*centrar vertical padre*/
+color: #D0D0D0;
+
+
+}
+
+
+.nav li{
+list-style: none;
+display:inline-block;
+border:1px solid ;
+background: #043564;
+width:6%;
+padding:5px 5px; /*arriba y abajo......a los lados*/
+padding-top: auto;    /*altura texto*/
+vertical-align: middle; /*centrar vertical hijo*/
+display: table-cell;
+text-align: center;
+
+}
+
+
+.nav a {
+
+text-decoration: none;
+color:white;
+font-size: 57%;
+font-family: 'Roboto', sans-serif;   /*Colocar texto en la mitad*/
+padding-left: %;
+padding-right: %;
+display:inline-block;
+text-align: justify;
+max-width: 100%;
+text-align: center
+
+}
+
+
+.nav li:hover {
+  background-color:
+#065BA9;  /*mouse pasa y color diferente*/
+}
+
+
+
+
+/*..........TEXTO...........*/
+
+.texto{
+
+
+    /*texto inferior banner*/
+width: 99%;
+height:100%;
+margin-top: -3%;
+padding: 50px;
+box-sizing: border-box;
+display:inline-block; 
+
+
+}
+
+.texto h1{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+float: top;
+font-size: 24px;
+color:#043564;
+text-decoration: none;
+font-weight:bold;
+text-align: justify;
+}
+
+.texto p{
+font-family: 'Roboto', sans-serif;
+float: top;
+font-size: 16px;
+color:#0b2965;
+text-align: justify;
+
+}
+
+
+/*..........FORMULARIO...........*/
+
+
+
+.formulario{
+width: 70%;
+height:750px;
+
+font-family: 'Yanone Kaffeesatz', sans-serif; /*texto titulo banner*/
+margin-left: 15%;
+box-sizing: border-box;
+text-align: left;
+ border-color: #D8D8D8; 
+ display: inline-block;
+ position: relative;
+
+}
+
+
+
+.formulario h1  {
+
+font-family: 'Yanone Kaffeesatz', sans-serif; /*texto titulo banner*/
+color: #555550;
+font-size: 30px;
+text-decoration: none;
+text-align: left;
+}
+
+.formulario p  {
+
+font-family: 'Yanone Kaffeesatz', sans-serif;/*texto contenido banner*/
+
+font-size: 22px;
+
+}
+
+.formulario label{
+font-size: 20px;
+    
+}
+
+.select{
+
+align-content: center;
+
+}
+
+.formulario h2{
+font-size: 22px;
+color: #555550;
+text-align: center;
+
+}
+
+
+/*...........IMPUT..........*/
+
+
+
+input[ type="text"]:hover {
+border:2px solid #043564;
+position: absolute;
+
+}
+
+input[ type="email"]:hover {
+border:2px solid #043564;
+position: absolute;
+
+}
+
+
+input[ type="submit"]:hover {
+border:2px solid #043564;
+position: absolute;
+
+}
+
+
+input[ type="datetime_local"]:hover {
+border:2px solid #043564;
+position: absolute;
+
+}
+
+
+input[ type="submit"]:hover {
+border:2px solid #043564;
+position: absolute;
+
+}
+
+
+input[ type="submit"]:{
+margin:center;
+
+}
+
+
+
+input[ type="reset"]:hover {
+border:2px solid #043564;
+position: absolute;
+
+}
+
+
+input[ type="reset"]:{
+margin: center;
+
+}
+
+
+input[ type="text"], [ type="email"], [ type="datetime_local"]:{
+width: 40%;
+
+}
+
+
+
+/*input[ type="reset"],[ type="email"]{ Solo para uno no a todos
+
+
+}*/
+
+
+
+/*.....................*/
+
+.formulario textarea{
+
+width: 98%;
+
+}
+
+.formulario select{
+
+width: 40%;}
+
+.formulario text{
+
+width: 40%;}
+
+.formulario input  {
+
+width: 40%;}
+
+
+/*.....................*/
+
+
+.pie2{
+
+
+width: 99%;
+height:90px;
+display:inline-block;
+background-color: white;
+text-align: center;
+margin left: auto;
+margin-right:auto;
+margin-top: 0.5%;
+position: relative;
+}
+
+
+
+.pie2 h1 {
+    
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 22px; 
+color: white;
+ 
+}
+
+.logo1{
+    
+ 
+width 9%;
+margin-top:-0.1%;
+display: inline-block
+}
+
+.logo2 {
+    
+  
+width 9%;
+margin-top:-6%;
+display: inline-block
+    
+}
+
+
+.pie{
+
+
+width: 99%;
+height:80px;
+display:inline-block;
+background-color:white;
+text-align: center;
+margin left: auto;
+margin-right:auto;
+
+
+}
+
+
+
+.pie a{
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+text-decoration: none;
+color:#011F3C;
+/*font-weight:bold;*/
+font-weight:bold;
+}
+
+
+
+/*.....................*/
+
+
+
+@media screen and (max-width:400px)
+
+{.contenedor{width:100%}aside{display: none;}}

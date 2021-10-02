@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name= viewport content="width=device-width, initial-scale=0.5">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="11formulario.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title> Web HSE Volvo </title>
+</head>
+
+
+<body>
+
+
+<section>
+<div class="contenedor">
+	
+
+
+
+<header>
+<div class="header"> 
+<a href="0inicio.html">
+<img class="imagen1" src="imagenes\logoheader.jpg" style="width:75px;height:75px;">
+</a>
+</div>
+</header>
+
+
+
+
+<nav>
+<div class="menu"> 
+	<ul class="nav">
+		<li><a href="1politicas.html" target="_self">POLITICAS HSE</a></li>
+        <li><a href="2programa100.html" target="_self">PROGRAMA 100% CRITERIOS HSE </a></li>
+        <li><a href="3conocimiento.html" target="_self"> "REPRESENTA UNA ESPECIE EN VIA DE EXTINCION"</a></li>
+        <li><a href="4campañas.html" target="_self"> PARTICIPACION Y RECONOCIMIENTOS </a></li>
+        <li><a href="10ilideres.html" target="_self"> PUNTUACION GESTION HSE ZONAS DE OPERACION </a></li>
+        <li><a href="5accidentes.html" target="_self">GESTION ACCIDENTES </a></li>
+        <li><a href="6ambiental.html" target="_self">INDICADORES AMBIENTALES </a></li>
+        <li><a href="7sgsst.html" target="_self">INDICADORES SEGURIDAD Y SALUD </a></li>
+        <li><a href="8vial.html" target="_self">SEGURIDAD VIAL </a></li>
+        <li><a href="9lideres.html" target="_self">ESCUELA DE LIDERES HSE </a></li>
+        <li><a href="16emergencia.html" target="_self">GESTION EMERGENCIAS </a></li>
+
+
+
+	</ul>
+</div>
+</nav>
+
+<br>
+<br>
+
+<section>
+<div class="texto">
+<br>
+
+<h1>Canal. Comunicate con recursos humanos HSE Volvo Group Colombia. </h1> 
+
+<br>
+<p > Puedes comunicarte oportunamente con recursos humanos HSE, por medio del diligenciamiento del siguiente formulario o por los enlaces al final de la pagina directo al whats app y/o correo de Recursos Humanos HSE Volvo group.</p>
+</div>	
+</section>
+
+
+
+<section>
+<div align="center" class="formulario">
+<br>
+<br>
+<br>
+<br>
+<CENTER>
+<h1>Comunicate con Recursos humanos HSE Volvo Group Colombia: Participacion en las campañas de Recursos Humanos HSE 2019 u otros aspectos que requieras contarnos. </h1>
+</CENTER>
+<br>
+<br>
+<h2> Descripcion del comunicado</h2>
+<br>
+
+<form name= "211formulario" method="POST" action="21formulariophp.php" enctype ="multipart/form-data" >
+
+
+<p>Selecciona el tipo de comunicado</p>
+<br>
+  <select for="select" class= "select" name= "comunicado">
+    <option value="Reporte de acto o condicion insegura ">Campaña:Protejo a mis compañeros, como a mi mismo:Reporte de acto o condicion insegura prevengo accidentes. </option>
+    <option value="Solicito un cafe del conocimiento "> Campaña:Comparte un cafe con RHHSE. Solicito un cafe con RHHSE. </option>
+      <option value="Deja tu huella "> Campaña:Deja tu huella a traves de tus ideas.Tengo una idea que aportar. </option>
+    <option value="Participo en las investigaciones de HSE "> Campaña: Yo participo en las investigaciones de HSE. Mis aportes </option>
+    <option value="Reporte de incidente o accidente">Reporte de peligro o riesgo que puede afectar el medio ambiente.</option>
+    <option value="Solicitud a HSE "> Solicitud a Recursos humanos HSE Volvo Group </option>
+    <option value="Otros "> Otros </option>
+  </select>
+
+
+   <br> 
+  <br> 
+    
+  <label for="nombre"> Nombre de quien hace el comunicado. </label>
+  <br>
+  <input class="nombre" type="text" name="nombre" placeholder=" Digite su nombre" autocomplete="off" required="true" maxlength=20>
+  <br>
+  
+  <br>
+  <label for="apellido"> Apellido. </label>
+  <br>
+  <input class="apellido" type="text" name="apellido" placeholder="Digite su Apellido" >
+
+  <br>
+  <br>
+
+  <label for="cargo"> Cargo. </label>
+  <br>
+  <input class="cargo" type="text" name="cargo" placeholder="Digite su cargo" >
+  <br>
+  <br>
+
+  <label for="email">Digite su correo electronico.</label>
+  <br>
+  <input class= "email" type="email" name="email"  placeholder="Digite su correo electronico">
+  <br>
+  <br>
+
+  <label for="ubicacion"> Escribe tu punto de trabajo, lugar y ciudad. Ejemplo Patio 20 de julio-Bogota. </label>
+  <br>
+  <br>
+  <textarea name="ubicacion" placeholder="Describa detalladamente su punto de trabajo, lugar y ciudad"></textarea>
+  <br>
+  <br>
+
+  <label for="descripcion"> Describe detalladamente tu comunicado : Contexto ( Descripcion clara ), Cuando (Fecha y hora ), Quien o quienes (Si hay alguien implicado en tu comunicado: Cargo, nombre, celular o email), donde (ciudad y lugar exacto asociado a tu comunicado), descripcion de tu participacion en actividad o campaña de medio ambiente.</label>
+  <br>
+  <br>
+  <textarea name="descripcion" placeholder="Describa detalladamente conforme la descripcion del comunicado seleccionado"></textarea>
+  <br>
+  <br>
+ 
+  <label for="fecha">Digita la fecha y hora local de tu comunicado.</label>
+  <input type="datetime-local" name="fecha" value="fecha y hora local">
+   <br>
+   <br>
+  <label> Adjunta una fotografia o documento si es necesario. </label>
+  <input type="file" name="archivo" multiple > 
+   <br>
+   <br>
+  <input type="submit" name="enviar" value="Enviar Formulario">
+  <input type="reset" name="reestablecer" value="Reestablecer">
+
+  </form>
+  <br>
+
+</div>
+    
+</section>
+
+
+<div class="pie2"> 
+<div class="logo1">
+<a href="https://api.whatsapp.com/send?phone=573057039893&text=CANAL%20PERMANENTE%20PARA%20PARTICIPACION%20DEL PERSONAL%20EN%20LAS%20CAMPAÑAS%20DE%20HSE%20VOLVO%20GROUP%20COLOMBIA" target="_blank"> <img src="imagenes/whatsapp.png"</a>
+</div>
+<div class="logo2">
+<a href="mailto:andres.aros@outsourcingadecco.com.co" target="_blank"> <img src="imagenes/mail.png"</a>
+</div>
+
+</div>	
+
+<br> 
+ <br> 
+<br>
+ <br> 
+ <br> 
+<br>
+
+
+
+<section>
+<div class="pie">
+<br>
+<a href="11formulario.html" > Comunicate con Recursos Humanos HSE Volvo Group Colombia </a>
+<br>
+<img class="imagen1" src="imagenes/letrapie.png" style="width:12%;height:;">
+
+</div>
+</section>
+
+ 
+
+
+
+     
+</section>
+</body>
+</html>
